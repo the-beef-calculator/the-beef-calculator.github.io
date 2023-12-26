@@ -1,0 +1,33 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ master ]  # Replace with your default branch
+  schedule:
+    - cron: '0 0 * * *' # Optional: Scheduled trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+oh 
+    - name: Set up Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '20.10.0' # Specify the Node.js version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+      env:
+        WAKATIME_JSON_URL: ${{ secrets.WAKATIME_JSON_URL }}
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
