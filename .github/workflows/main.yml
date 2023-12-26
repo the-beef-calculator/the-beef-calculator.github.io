@@ -2,9 +2,11 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ master ]  # Replace with your default branch
+    branches: 
+      - main 
   schedule:
     - cron: '0 0 * * *' # Optional: Scheduled trigger
+  workflow_dispatch:
 
 jobs:
   build:
