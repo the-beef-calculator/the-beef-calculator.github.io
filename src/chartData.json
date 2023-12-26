@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "name": "Java",
+      "percent": 51.09,
+      "color": "#b07219",
+      "decimal": "30.25",
+      "digital": "30:15",
+      "hours": 30,
+      "minutes": 15,
+      "text": "30 hrs 15 mins",
+      "total_seconds": 108927.399437
+    },
+    {
+      "name": "JavaScript",
+      "percent": 38.04,
+      "color": "#f1e05a",
+      "decimal": "22.52",
+      "digital": "22:31",
+      "hours": 22,
+      "minutes": 31,
+      "text": "22 hrs 31 mins",
+      "total_seconds": 81100.248814
+    },
+    {
+      "name": "Markdown",
+      "percent": 2.49,
+      "color": "#083fa1",
+      "decimal": "1.47",
+      "digital": "1:28",
+      "hours": 1,
+      "minutes": 28,
+      "text": "1 hr 28 mins",
+      "total_seconds": 5307.23422
+    },
+    {
+      "name": "HTML",
+      "percent": 2.16,
+      "color": "#e34c26",
+      "decimal": "1.27",
+      "digital": "1:16",
+      "hours": 1,
+      "minutes": 16,
+      "text": "1 hr 16 mins",
+      "total_seconds": 4595.881085
+    },
+    {
+      "name": "C",
+      "percent": 1.4,
+      "color": "#555555",
+      "decimal": "0.82",
+      "digital": "0:49",
+      "hours": 0,
+      "minutes": 49,
+      "text": "49 mins",
+      "total_seconds": 2982.85204
+    },
+    {
+      "name": "JSON",
+      "percent": 1.27,
+      "color": "#292929",
+      "decimal": "0.75",
+      "digital": "0:45",
+      "hours": 0,
+      "minutes": 45,
+      "text": "45 mins",
+      "total_seconds": 2707.101136
+    },
+    {
+      "name": "XML",
+      "percent": 1.07,
+      "color": "#0060ac",
+      "decimal": "0.63",
+      "digital": "0:38",
+      "hours": 0,
+      "minutes": 38,
+      "text": "38 mins",
+      "total_seconds": 2282.191111
+    },
+    {
+      "name": "Other",
+      "percent": 0.76,
+      "color": "#16ce40",
+      "decimal": "0.45",
+      "digital": "0:27",
+      "hours": 0,
+      "minutes": 27,
+      "text": "27 mins",
+      "total_seconds": 1630.728607
+    },
+    {
+      "name": "IDEA_MODULE",
+      "percent": 0.66,
+      "color": "#dc9658",
+      "decimal": "0.38",
+      "digital": "0:23",
+      "hours": 0,
+      "minutes": 23,
+      "text": "23 mins",
+      "total_seconds": 1411.344
+    },
+    {
+      "name": "CSS",
+      "percent": 0.34,
+      "color": "#563d7c",
+      "decimal": "0.18",
+      "digital": "0:11",
+      "hours": 0,
+      "minutes": 11,
+      "text": "11 mins",
+      "total_seconds": 715.774485
+    },
+    {
+      "name": "Bash",
+      "percent": 0.3,
+      "color": "#d62728",
+      "decimal": "0.17",
+      "digital": "0:10",
+      "hours": 0,
+      "minutes": 10,
+      "text": "10 mins",
+      "total_seconds": 640.252742
+    },
+    {
+      "name": "Git Config",
+      "percent": 0.19,
+      "color": "#F44D27",
+      "decimal": "0.10",
+      "digital": "0:06",
+      "hours": 0,
+      "minutes": 6,
+      "text": "6 mins",
+      "total_seconds": 403.622405
+    },
+    {
+      "name": "Python",
+      "percent": 0.08,
+      "color": "#3572A5",
+      "decimal": "0.03",
+      "digital": "0:02",
+      "hours": 0,
+      "minutes": 2,
+      "text": "2 mins",
+      "total_seconds": 171.821005
+    },
+    {
+      "name": "Text",
+      "percent": 0.07,
+      "color": "#9467bd",
+      "decimal": "0.03",
+      "digital": "0:02",
+      "hours": 0,
+      "minutes": 2,
+      "text": "2 mins",
+      "total_seconds": 150.803961
+    },
+    {
+      "name": "INI",
+      "percent": 0.07,
+      "color": "#d1dbe0",
+      "decimal": "0.03",
+      "digital": "0:02",
+      "hours": 0,
+      "minutes": 2,
+      "text": "2 mins",
+      "total_seconds": 143.615687
+    },
+    {
+      "name": "GitIgnore file",
+      "percent": 0.01,
+      "color": "#8c564b",
+      "decimal": "0.00",
+      "digital": "0:00",
+      "hours": 0,
+      "minutes": 0,
+      "text": "0 secs",
+      "total_seconds": 25.588
+    }
+  ]
+}

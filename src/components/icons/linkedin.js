@@ -1,5 +1,8 @@
 import React from 'react';
 
+{
+  /* Custom LinkedIn Icon*/
+}
 const IconLinkedin = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

@@ -252,6 +252,7 @@ const Menu = () => {
           </div>
         </StyledHamburgerButton>
 
+        {/* This function handles the sidebar that is present on mobile devices (or small browser windows) */}
         <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
           <nav ref={navRef}>
             {navLinks && (
@@ -266,7 +267,7 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
+            <a href="/Cedric Cherestal Resume.pdf" className="resume-link">
               Resume
             </a>
           </nav>

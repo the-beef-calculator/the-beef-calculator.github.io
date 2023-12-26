@@ -18,7 +18,6 @@ const Head = ({ title, description, image }) => {
             defaultDescription: description
             siteUrl
             defaultImage: image
-            twitterUsername
           }
         }
       }
@@ -58,8 +57,6 @@ const Head = ({ title, description, image }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-
-      <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
     </Helmet>
   );
 };

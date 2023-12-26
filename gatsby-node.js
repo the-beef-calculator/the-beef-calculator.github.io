@@ -6,11 +6,22 @@
 
 const path = require('path');
 const _ = require('lodash');
+const fetch = require('node-fetch');
+const fs = require('fs').promises;
+require('dotenv').config({ path: './.env' });
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
+  const apiUrl = process.env.WAKATIME_JSON_URL;
+  const filePath = path.join(__dirname, 'src', 'chartData.json');
+
+  try {
+    await fetchAndWriteChartData(apiUrl, filePath);
+  } catch (error) {
+    reporter.panicOnBuild(`Error fetching and writing data: ${error.message}`);
+  }
 
   const result = await graphql(`
     {
@@ -65,6 +76,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 };
+
+async function fetchAndWriteChartData(api, filePath) {
+  const response = await fetch(api);
+
+  if (!response.ok) {
+    throw new Error(`Response not OK: ${response.statusText}`);
+  }
+
+  const data = await response.json();
+  await fs.writeFile(filePath, JSON.stringify(data));
+}
 
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
