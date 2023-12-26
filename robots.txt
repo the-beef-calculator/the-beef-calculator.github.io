@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://cedriccherestal.dev/sitemap-index.xml
+Host: https://cedriccherestal.dev
