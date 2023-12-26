@@ -2,7 +2,7 @@
   "data": [
     {
       "name": "Java",
-      "percent": 51.09,
+      "percent": 48.11,
       "color": "#b07219",
       "decimal": "30.25",
       "digital": "30:15",
@@ -13,29 +13,29 @@
     },
     {
       "name": "JavaScript",
-      "percent": 38.04,
+      "percent": 40.6,
       "color": "#f1e05a",
-      "decimal": "22.52",
-      "digital": "22:31",
-      "hours": 22,
-      "minutes": 31,
-      "text": "22 hrs 31 mins",
-      "total_seconds": 81100.248814
+      "decimal": "25.53",
+      "digital": "25:32",
+      "hours": 25,
+      "minutes": 32,
+      "text": "25 hrs 32 mins",
+      "total_seconds": 91925.429482
     },
     {
       "name": "Markdown",
-      "percent": 2.49,
+      "percent": 2.63,
       "color": "#083fa1",
-      "decimal": "1.47",
-      "digital": "1:28",
+      "decimal": "1.65",
+      "digital": "1:39",
       "hours": 1,
-      "minutes": 28,
-      "text": "1 hr 28 mins",
-      "total_seconds": 5307.23422
+      "minutes": 39,
+      "text": "1 hr 39 mins",
+      "total_seconds": 5945.524233
     },
     {
       "name": "HTML",
-      "percent": 2.16,
+      "percent": 2.03,
       "color": "#e34c26",
       "decimal": "1.27",
       "digital": "1:16",
@@ -45,8 +45,19 @@
       "total_seconds": 4595.881085
     },
     {
+      "name": "JSON",
+      "percent": 1.68,
+      "color": "#292929",
+      "decimal": "1.05",
+      "digital": "1:03",
+      "hours": 1,
+      "minutes": 3,
+      "text": "1 hr 3 mins",
+      "total_seconds": 3815.041294
+    },
+    {
       "name": "C",
-      "percent": 1.4,
+      "percent": 1.32,
       "color": "#555555",
       "decimal": "0.82",
       "digital": "0:49",
@@ -56,19 +67,8 @@
       "total_seconds": 2982.85204
     },
     {
-      "name": "JSON",
-      "percent": 1.27,
-      "color": "#292929",
-      "decimal": "0.75",
-      "digital": "0:45",
-      "hours": 0,
-      "minutes": 45,
-      "text": "45 mins",
-      "total_seconds": 2707.101136
-    },
-    {
       "name": "XML",
-      "percent": 1.07,
+      "percent": 1.01,
       "color": "#0060ac",
       "decimal": "0.63",
       "digital": "0:38",
@@ -79,18 +79,18 @@
     },
     {
       "name": "Other",
-      "percent": 0.76,
+      "percent": 0.82,
       "color": "#16ce40",
-      "decimal": "0.45",
-      "digital": "0:27",
+      "decimal": "0.52",
+      "digital": "0:31",
       "hours": 0,
-      "minutes": 27,
-      "text": "27 mins",
-      "total_seconds": 1630.728607
+      "minutes": 31,
+      "text": "31 mins",
+      "total_seconds": 1860.04258
     },
     {
       "name": "IDEA_MODULE",
-      "percent": 0.66,
+      "percent": 0.62,
       "color": "#dc9658",
       "decimal": "0.38",
       "digital": "0:23",
@@ -100,8 +100,19 @@
       "total_seconds": 1411.344
     },
     {
+      "name": "Bash",
+      "percent": 0.44,
+      "color": "#d62728",
+      "decimal": "0.27",
+      "digital": "0:16",
+      "hours": 0,
+      "minutes": 16,
+      "text": "16 mins",
+      "total_seconds": 1004.212187
+    },
+    {
       "name": "CSS",
-      "percent": 0.34,
+      "percent": 0.32,
       "color": "#563d7c",
       "decimal": "0.18",
       "digital": "0:11",
@@ -111,26 +122,15 @@
       "total_seconds": 715.774485
     },
     {
-      "name": "Bash",
-      "percent": 0.3,
-      "color": "#d62728",
-      "decimal": "0.17",
-      "digital": "0:10",
-      "hours": 0,
-      "minutes": 10,
-      "text": "10 mins",
-      "total_seconds": 640.252742
-    },
-    {
       "name": "Git Config",
-      "percent": 0.19,
+      "percent": 0.18,
       "color": "#F44D27",
       "decimal": "0.10",
       "digital": "0:06",
       "hours": 0,
       "minutes": 6,
       "text": "6 mins",
-      "total_seconds": 403.622405
+      "total_seconds": 415.033001
     },
     {
       "name": "Python",
@@ -144,6 +144,17 @@
       "total_seconds": 171.821005
     },
     {
+      "name": "INI",
+      "percent": 0.07,
+      "color": "#d1dbe0",
+      "decimal": "0.03",
+      "digital": "0:02",
+      "hours": 0,
+      "minutes": 2,
+      "text": "2 mins",
+      "total_seconds": 152.414268
+    },
+    {
       "name": "Text",
       "percent": 0.07,
       "color": "#9467bd",
@@ -155,20 +166,20 @@
       "total_seconds": 150.803961
     },
     {
-      "name": "INI",
-      "percent": 0.07,
-      "color": "#d1dbe0",
-      "decimal": "0.03",
-      "digital": "0:02",
+      "name": "TSConfig",
+      "percent": 0.02,
+      "color": "#8c564b",
+      "decimal": "0.00",
+      "digital": "0:00",
       "hours": 0,
-      "minutes": 2,
-      "text": "2 mins",
-      "total_seconds": 143.615687
+      "minutes": 0,
+      "text": "0 secs",
+      "total_seconds": 40.037085
     },
     {
       "name": "GitIgnore file",
       "percent": 0.01,
-      "color": "#8c564b",
+      "color": "#aec7e8",
       "decimal": "0.00",
       "digital": "0:00",
       "hours": 0,
