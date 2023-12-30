@@ -15,9 +15,13 @@ const IconLogo = () => (
         />
       </g>
     </g>
-    <text x="28" y="65" fill="currentColor" fontSize="50px" fontFamily="Consolas, serif">
-      C
-    </text>
+    <g id="B" transform="translate(32.000000, 31.000000)">
+      <path
+        d="M 21 21.6 L 21 30.2 L 16.65 34.55 L 4.3 34.55 L 0 30.2 L 0 4.35 L 4.3 0 L 16.65 0 L 21 4.35 L 21 7.95 L 16.05 12.95 L 16.05 4.35 L 4.95 4.35 L 4.95 30.2 L 16.05 30.2 L 16.05 26.55 L 21 21.6 Z"
+        vectorEffect="non-scaling-stroke"
+        fill="currentColor"
+      />
+    </g>
   </svg>
 );
 
