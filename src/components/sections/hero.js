@@ -12,11 +12,11 @@ const StyledHeroSection = styled.section`
   align-items: flex-start;
   min-height: 100vh;
   height: 100vh;
-  padding: 0;
+  padding-top: var(--nav-height);
 
-  @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
+  @media (max-height: 700px) and (min-width: 300px), (max-width: 460px) {
     height: auto;
-    padding-top: var(--nav-height);
+    padding-top: calc(var(--nav-height) + 20px);
   }
 
   h1 {
@@ -28,6 +28,8 @@ const StyledHeroSection = styled.section`
 
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
+      overflow-wrap: break-word;
+      max-width: 100%;
     }
   }
 
@@ -40,6 +42,10 @@ const StyledHeroSection = styled.section`
   p {
     margin: 20px 0 0;
     max-width: 540px;
+    @media (max-width: 480px) {
+      margin: 20px 0 0;
+      max-width: 400px;
+    }
   }
 
   .email-link {
