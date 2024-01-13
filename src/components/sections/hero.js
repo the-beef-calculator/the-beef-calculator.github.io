@@ -11,7 +11,6 @@ const StyledHeroSection = styled.section`
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  height: 100vh;
   padding-top: var(--nav-height);
 
   @media (max-height: 700px) and (min-width: 300px), (max-width: 460px) {
@@ -77,7 +76,7 @@ const Hero = () => {
     <>
       <p>
         I'm a Florida-based Software Engineer and Computer Science student at FIU. Here's a quick
-        look at my coding stats:
+        look at my coding stats, organized by hours spent:
       </p>
 
       <ChartContainer>

@@ -38,7 +38,7 @@ const CodeChart = () => {
         },
         subtitle: {
           display: true,
-          text: '        Updates Daily',
+          text: '          Updates Automatically', // literally same here
           align: 'center',
           color: getComputedStyle(document.documentElement).getPropertyValue('--slate').trim(),
           font: {
