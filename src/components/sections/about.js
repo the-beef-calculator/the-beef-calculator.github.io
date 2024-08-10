@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['React', 'Gatsby', 'Spring', '.NET', 'Relational Databases', 'Node.js'];
+  const skills = [
+    'Springboot',
+    'GraphQL',
+    'React',
+    'Jotai',
+    '.NET',
+    'Java',
+    'Typescript',
+    'C#',
+    'Relational Databases',
+    'JUnit',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,30 +148,26 @@ const About = () => {
             <p>
               Hello! My name is Cedric. My journey with tech began funnily in elementary school,
               when I wanted to create mods for single player computer games. Turns out, trying to
-              learn C++ with less than dial-up speeds and zero access to textbooks was a bit more
-              than I bargained for at the time.
+              learn C++ with no access to the internet or textbooks was a bit more than I bargained
+              for at the time.
             </p>
 
             <p>
-              Before I knew it, I was entering my Junior year at{' '}
-              <a href="https://www.fiu.edu/">Florida International University</a>, and discovered
-              and fell in love with{' '}
-              <a href="https://cs50.harvard.edu/x/2023/">
-                Harvard's Computer Science course, CS50.
-              </a>
+              Before I knew it, I was entering my Sophomore year at{' '}
+              <a href="https://www.fiu.edu/">Florida International University</a> studying Computer
+              Science, and discovered and fell in love with Harvard's online CS course,{' '}
+              <a href="https://cs50.harvard.edu/x/2023/">CS50.</a>
             </p>
 
             <p>
-              Recently, I've had the privilege of interning at a
-              <a href="https://www.ukg.com/">huge Human Resources software company</a>. Nowadays,
-              I've been working on personal projects like my{' '}
-              <a href="https://github.com/the-beef-calculator/AppleStore-Inventory-Checker">
-                Apple Stock Alert Bot
-              </a>
-              , and this website!
+              Recently, I've interned at the world's largest{' '}
+              <a href="https://www.blackrock.com/us">financial asset management company</a>, and an{' '}
+              <a href="https://www.ukg.com/">enterprise level Human Resources software company</a>.
+              Nowadays, I've been working on building a GBA emulator from scratch using Rust, and
+              this website!
             </p>
 
-            <p>Here are a few technologies I’ve worked with recently:</p>
+            <p>Here are a few technologies I’ve worked with professionally recently:</p>
           </div>
 
           <ul className="skills-list">

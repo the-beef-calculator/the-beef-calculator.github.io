@@ -69,7 +69,17 @@ const CodeChart = () => {
     {
       /* Exclude some of irrelevant data*/
     }
-    const excludeList = ['Other', 'IDEA_MODULE', 'Git Config', 'GitIgnore file', 'INI', 'Text'];
+    const excludeList = [
+      'Other',
+      'TSConfig',
+      'Makefile',
+      'Bash',
+      'IDEA_MODULE',
+      'Git Config',
+      'GitIgnore file',
+      'INI',
+      'Text',
+    ];
     const filteredData = chartData.data.filter(item => !excludeList.includes(item.name));
 
     {
