@@ -3,7 +3,7 @@ date: '2023-09-11'
 title: 'Software Engineer Intern'
 company: 'UKG (Ultimate Kronos Group)'
 location: 'Weston, FL'
-range: 'September 2023 - December 2023'
+range: 'September 2023 - December 2023 | Payroll Team'
 url: 'https://www.ukg.com/'
 ---
 

@@ -146,14 +146,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Cedric. My journey with tech began funnily in elementary school,
-              when I wanted to create mods for single player computer games. Turns out, trying to
-              learn C++ with no access to the internet or textbooks was a bit more than I bargained
-              for at the time.
+              Hello! My name is Cedric. My journey with tech began in elementary school, when I
+              wanted to create mods for single player computer games. Turns out, trying to learn C++
+              with no access to the internet or textbooks was a bit more than I bargained for at the
+              time.
             </p>
 
             <p>
-              Before I knew it, I was entering my Sophomore year at{' '}
+              Before I knew it, I was enrolled at{' '}
               <a href="https://www.fiu.edu/">Florida International University</a> studying Computer
               Science, and discovered and fell in love with Harvard's online CS course,{' '}
               <a href="https://cs50.harvard.edu/x/2023/">CS50.</a>
@@ -161,10 +161,15 @@ const About = () => {
 
             <p>
               Recently, I've interned at the world's largest{' '}
-              <a href="https://www.blackrock.com/us">financial asset management company</a>, and an{' '}
-              <a href="https://www.ukg.com/">enterprise level Human Resources software company</a>.
-              Nowadays, I've been working on building a GBA emulator from scratch using Rust, and
-              this website!
+              <a href="https://www.blackrock.com/us">financial asset management company</a>, and
+              twice at{' '}
+              <a href="https://www.ukg.com/"> one of the largest HCM/WFM software companies.</a>
+            </p>
+
+            <p>
+              I'm currently working on developing a TEKKEN 8 statistics website, where I analyze
+              over 150 million replays in order to show interesting data points about character
+              popularity, rank distribution, winrates, and so on!
             </p>
 
             <p>Here are a few technologies I’ve worked with professionally recently:</p>
