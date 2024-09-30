@@ -79,6 +79,9 @@ const CodeChart = () => {
       'GitIgnore file',
       'INI',
       'Text',
+      'Properties',
+      'Java Properties',
+      'XML',
     ];
     const filteredData = chartData.data.filter(item => !excludeList.includes(item.name));
 
