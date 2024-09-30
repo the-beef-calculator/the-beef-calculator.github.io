@@ -82,6 +82,7 @@ const CodeChart = () => {
       'Properties',
       'Java Properties',
       'XML',
+      'Image (svg)',
     ];
     const filteredData = chartData.data.filter(item => !excludeList.includes(item.name));
 
