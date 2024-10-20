@@ -54,7 +54,7 @@ const StyledHeroSection = styled.section`
 `;
 const ChartContainer = styled.div`
   width: 700px;
-  height: 300px;
+  height: 400px;
 `;
 
 const Hero = () => {
