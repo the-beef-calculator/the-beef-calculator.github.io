@@ -2,11 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import 'chart.js/auto';
 import chartData from '../chartData';
-import { Doughnut } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2'; // Change from Doughnut to Bar
 
-{
-  /*Initialize state for the chart Data*/
-}
 const CodeChart = () => {
   const [chartConfig, setChartConfig] = useState({
     labels: [],
@@ -19,11 +16,12 @@ const CodeChart = () => {
       },
     ],
     options: {
+      indexAxis: 'y',
       color: getComputedStyle(document.documentElement).getPropertyValue('--slate').trim(),
       plugins: {
         title: {
           display: true,
-          text: '        Languages over All Time', // this pained me to write, but I couldn't find any other way to adjust the title
+          text: 'Languages over All Time',
           align: 'center',
           color: getComputedStyle(document.documentElement).getPropertyValue('--green').trim(),
           font: {
@@ -38,7 +36,7 @@ const CodeChart = () => {
         },
         subtitle: {
           display: true,
-          text: '          Updates Automatically', // literally same here
+          text: 'Updates Automatically',
           align: 'center',
           color: getComputedStyle(document.documentElement).getPropertyValue('--slate').trim(),
           font: {
@@ -47,15 +45,21 @@ const CodeChart = () => {
               .trim(),
           },
         },
-        legend: {
-          labels: {
-            font: {
-              family: getComputedStyle(document.documentElement)
-                .getPropertyValue('--font-sans')
-                .trim(),
-            },
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Hours',
           },
-          position: 'left',
+        },
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Languages',
+          },
         },
       },
     },
@@ -66,9 +70,6 @@ const CodeChart = () => {
       .getPropertyValue('--lightest-navy')
       .trim();
 
-    {
-      /* Exclude some of irrelevant data*/
-    }
     const excludeList = [
       'Other',
       'TSConfig',
@@ -86,11 +87,8 @@ const CodeChart = () => {
     ];
     const filteredData = chartData.data.filter(item => !excludeList.includes(item.name));
 
-    {
-      /* Loop over the json file, get all the relevant data (crazy how JS can just...DO that?)*/
-    }
     const languages = filteredData.map(item => item.name);
-    const percentages = filteredData.map(item => item.percent);
+    const percentages = filteredData.map(item => item.decimal);
     const colors = filteredData.map(item => item.color);
 
     setChartConfig({
@@ -105,7 +103,7 @@ const CodeChart = () => {
     });
   }, []);
 
-  return <Doughnut data={chartConfig} options={chartConfig.options} />;
+  return <Bar data={chartConfig} options={chartConfig.options} />;
 };
 
 export default CodeChart;
