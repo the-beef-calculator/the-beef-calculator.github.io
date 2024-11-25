@@ -126,16 +126,18 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Springboot',
+    'Apache Kafka',
+    'Spring Boot',
+    'RabbitMQ',
     'GraphQL',
+    'PostgreSQL',
+    'MongoDB',
     'React',
     'Jotai',
     '.NET',
     'Java',
     'Typescript',
     'C#',
-    'Relational Databases',
-    'JUnit',
   ];
 
   return (
@@ -168,7 +170,7 @@ const About = () => {
 
             <p>
               I'm currently working on developing a TEKKEN 8 statistics website, where I analyze
-              over 150 million replays in order to show interesting data points about character
+              over 200 million replays in order to show interesting data points about character
               popularity, rank distribution, winrates, and so on!
             </p>
 
