@@ -16,7 +16,7 @@ const CodeChart = () => {
     ],
   });
 
-  const [chartOptions, setChartOptions] = useState({
+  const [chartOptions] = useState({
     responsive: true,
     maintainAspectRatio: false,
     color: getComputedStyle(document.documentElement).getPropertyValue('--slate').trim(),
@@ -28,9 +28,7 @@ const CodeChart = () => {
         color: getComputedStyle(document.documentElement).getPropertyValue('--green').trim(),
         font: {
           size: 14,
-          family: getComputedStyle(document.documentElement)
-            .getPropertyValue('--font-mono')
-            .trim(),
+          family: getComputedStyle(document.documentElement).getPropertyValue('--font-mono').trim(),
         },
         padding: {
           top: 20,
@@ -42,21 +40,17 @@ const CodeChart = () => {
         align: 'center',
         color: getComputedStyle(document.documentElement).getPropertyValue('--slate').trim(),
         font: {
-          family: getComputedStyle(document.documentElement)
-            .getPropertyValue('--font-mono')
-            .trim(),
+          family: getComputedStyle(document.documentElement).getPropertyValue('--font-mono').trim(),
         },
       },
       tooltip: {
         callbacks: {
-          label: (context) => {
+          label: context => {
             const dataIndex = context.dataIndex;
             const dataItem = chartData.data[dataIndex];
             return `${dataItem.text} (${dataItem.percent}%)`;
           },
-          title: (tooltipItems) => {
-            return `Language: ${tooltipItems[0].label}`;
-          },
+          title: tooltipItems => `Language: ${tooltipItems[0].label}`,
         },
         backgroundColor: 'rgba(0, 0, 0, 0.8)',
         titleFont: {
@@ -108,7 +102,7 @@ const CodeChart = () => {
       'Image (svg)',
       'textmate',
       '.env file',
-      'CSV/TSV'
+      'CSV/TSV',
     ];
 
     const filteredData = chartData.data.filter(item => !excludeList.includes(item.name));
