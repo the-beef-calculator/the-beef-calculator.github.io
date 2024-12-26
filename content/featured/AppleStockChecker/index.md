@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Apple Stock Checker Bot'
 cover: './stock-checker-terminal.png'
 github: 'https://github.com/the-beef-calculator/AppleStore-Inventory-Checker'
