@@ -11,4 +11,4 @@ tech:
   - Twilio
 ---
 
-A bot that can check Apple stores local to your area for specific devices, and alert you via text message when they're in stock. I'm planning on turning this into its own app or website!
+A bot that can check Apple stores local to your area for specific devices, and alert you via text message when they're in stock. 

@@ -3,7 +3,7 @@ date: '2024/09/09'
 title: 'Software Engineer Intern'
 company: 'UKG (Ultimate Kronos Group)'
 location: 'Weston, FL'
-range: 'September 2024 - Present | Notifications Team'
+range: 'September 2024 - December 2024 | Notifications Team'
 url: 'https://www.ukg.com/'
 ---
 

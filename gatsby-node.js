@@ -5,11 +5,13 @@
  */
 
 const path = require('path');
-const fetch = require('node-fetch');
 const fs = require('fs').promises;
 require('dotenv').config({ path: './.env' });
 
+let fetch;
 exports.createPages = async ({ reporter }) => {
+  // Dynamically import node-fetch
+  fetch = (await import('node-fetch')).default;
   const apiUrl = process.env.WAKATIME_JSON_URL;
   const filePath = path.join(__dirname, 'src', 'chartData.json');
 
